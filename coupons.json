@@ -1,0 +1,33 @@
+[
+    {
+        "code": "TESTCOUPON",
+        "discount_type": "percentage",
+        "discount_value": 15,
+        "product_ids": [
+            1,
+            2
+        ],
+        "category": [
+            "Course"
+        ]
+    },
+    {
+        "code": "SIMPLIFIED",
+        "discount_type": "fixed",
+        "discount_value": 100,
+        "product_ids": [
+            "1"
+        ],
+        "category": "Software"
+    },
+    {
+        "code": "IMPROVED",
+        "discount_type": "percentage",
+        "discount_value": 20,
+        "product_ids": [
+            "4",
+            "6"
+        ],
+        "category": "Subscription"
+    }
+]
