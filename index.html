@@ -398,18 +398,12 @@ src="https://www.facebook.com/tr?id=482675157669768&ev=PageView&noscript=1"
 
         .category-section-title { font-size: 1.75rem; font-weight: 700; color: var(--text-color); text-align: center; margin-top: 1rem; margin-bottom: 1.5rem; }
         .categories {
-            display: flex;
-            overflow-x: auto;
-            scroll-snap-type: x mandatory;
-            gap: 1rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
             padding-bottom: 1.5rem;
-            -ms-overflow-style: none;  /* IE and Edge */
-            scrollbar-width: none;  /* Firefox */
-            justify-content: space-evenly;
         }
-        .categories::-webkit-scrollbar {
-            display: none; /* Chrome, Safari, and Opera */
-        }
+
         .category {
             background-color: white;
             border-radius: 16px;
